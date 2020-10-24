@@ -1,0 +1,33 @@
+For the recursive function, I use the follow function
+def factorial(x):
+    """This is a recursive function to find the factorial of an integer"""
+    print('x is',x)
+    if x == 1 or x == 0:
+        return 1
+    else:
+        return (x * factorial(x-1)
+
+For non-recursion example, I use the following function.
+
+def factorial(num):
+    count = 1
+    fact = 1 
+    while count <= num:
+        fact= fact * count
+        count+=1
+    return fact
+
+factorial(1) 
+Recursive Function:  4.106500000489177e-05
+Non-recursive Function:  5.271500003800611e-05
+factorial(10) 
+recursive Function:  4.479599988371774e-05
+non-recursive Function:  4.552599989438022e-05
+factorial(100) 
+recursive Function:  6.600500000786269e-05
+non-recursive Function:  5.440099994302727e-05
+factorial(1000)
+recursive Function:  0.0005902240000068559 
+non-recursive Function:  0.0003293929999017564
+
+Time spent increases with number increases 

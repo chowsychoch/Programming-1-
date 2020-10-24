@@ -1,0 +1,13 @@
+In the program in the previous question, what happens in each of the following cases:
+(a) If you include the line print(print max())?
+It will print out result and also print out 'None' in newline as function return nothing. 
+
+(b) If you omit the brackets after print max(), ie just have print max? 
+It won't return anything as it means print variable of print max which  did not have any assignment of value.
+
+
+(c) If you include the line print(print max)?
+<function print_max at 0x7fd787167c20>
+It return function type of print_max at memory address location 
+Report your findings and your explanations for them in p13q3.txt (or p13q3.odt or p13q3.doc).
+
