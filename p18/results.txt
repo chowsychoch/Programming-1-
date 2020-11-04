@@ -1,0 +1,1 @@
+Number of e is 2, Number of '<!--' is 0, Number of '-->' is 0, Number of '<' is 2, Number of '>' is 2,Number of 'newline' is 2

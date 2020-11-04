@@ -1,0 +1,12 @@
+#prompts the user for a series of strings 
+#prompt the user for a file through which it should search
+
+#if file is not found
+# open with default file
+# else open with the filename with read
+# 
+# while input is not empty 
+# loop over the line of the file
+# for user input in line
+# read.line  and print out the result
+# if not found word, user input should remove the lst index of string and continue to loop until min len of 5 is reached. 

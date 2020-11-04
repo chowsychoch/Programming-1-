@@ -31,4 +31,11 @@ else:
 
 print('a',letter_a,'e',letter_e,'i',letter_i,'o',letter_o,'u',letter_u)
 
-
+##other solution
+s = input('prompt user for string input:')
+count = 0
+vowels = ['a' , 'e' , 'i' ,'o' , 'u']
+for char in s:
+    if char in vowels: # check if each char in your string is in your list of vowels
+        count += 1
+print ('Number of vowels: ' + str(count)) # count is an integer so you need to cast it as a str
